@@ -2,6 +2,8 @@ import scrapy
 
 from webscraper.items import BookItem
 
+# If this breaks, the bug is in another castle. | AI
+
 class BookscrapySpider(scrapy.Spider):
     name = "bookscrapy"
     allowed_domains = ["books.toscrape.com"]
